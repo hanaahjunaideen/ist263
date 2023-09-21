@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="utf-8">
-            <title>Contact</title>
-        </head>
-        <h1>Contact</h1>
-        <p>
-            Hanaah Junaideen <br>
-            842 Sumner Ave <br>
-            Syracuse, NY 13210 <br>
-            <br><a href="mailto:hjunaide@syr.edu">hjunaide@syr.edu</a><br>
-        <br><a href="https://linkedin.com/in/hanaahjunaideen/" target=blank>My LinkedIn Profile</a><br>
-        <a href="https://linkedin.com/in/hanaahjunaideen/"><img src="../images/LI-Logo.svg.original.svg"><br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.2933695185166!2d-76.1283409244892!3d43.03525859217888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f373f0a70a99%3A0xafff404f2bb7fa5d!2s842%20Sumner%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1695257844488!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <form action="https://formspree.io/f/mqkvylny" method="POST">
-        <form action="" method="post">
-            <br><label for="Questions/Comments, if none write N/A">Questions/Comments, if none write N/A</label>
-            <br><input type="text" id="Questions/Comments, if none write N/A" name="Questions/Comments, if none write N/A"><br>
-            <p>User Type( select one)</p>
-            <input type="checkbox" id="Friend" name="Friend" value="Friend">
-            <label for="Friend">Friend</label><br>
-            <input type="checkbox" id="Classmate" name="Classmate" value="Classmate">
-            <label for="Classmate">Classmate</label><br>
-            <input type="checkbox" id="Family Member" name="Family Member" value="Family Member">
-            <label for="Family Member">Family Member</label><br>
-            <input type="checkbox" id="Acquaintence" name="Acquaintence" value="Acquaintence">
-            <label for="Acquaintence">Acquaintence</label><br>
-            <input type="checkbox" id="Other" name="Other" value="Other">
-            <label for="Other">Other</label><br>
-            <input type="text" id="If 'other', explain here:" name="If 'other', explain here:"><br>
-            <input type="submit" value="Submit">
-        </form>
-    </html>
-
-        
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <p>
+        Hanaah Junaideen <br>
+        842 Sumner Ave <br>
+        Syracuse, NY 13210 <br>
+        <a href="mailto:hjunaide@syr.edu">hjunaide@syr.edu</a><br>
+        <a href="https://linkedin.com/in/hanaahjunaideen/" target="_blank">My LinkedIn Profile</a><br>
+        <img src="../images/LI-Logo.svg.original.svg" alt="LinkedIn Logo"><br>
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.2933695185166!2d-76.1283409244892!3d43.03525859217888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f373f0a70a99%3A0xafff404f2bb7fa5d!2s842%20Sumner%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1695257844488!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form action="https://formspree.io/f/mqkvylny" method="POST">
+        <label for="comments">Questions/Comments, if none write N/A</label><br>
+        <input type="text" id="comments" name="comments"><br>
+        <p>User Type (select one)</p>
+        <input type="checkbox" id="Friend" name="user_type" value="Friend">
+        <label for="Friend">Friend</label><br>
+        <input type="checkbox" id="Classmate" name="user_type" value="Classmate">
+        <label for="Classmate">Classmate</label><br>
+        <input type="checkbox" id="Family_Member" name="user_type" value="Family Member">
+        <label for="Family_Member">Family Member</label><br>
+        <input type="checkbox" id="Acquaintance" name="user_type" value="Acquaintance">
+        <label for="Acquaintance">Acquaintance</label><br>
+        <input type="checkbox" id="Other" name="user_type" value="Other">
+        <label for="Other">Other</label><br>
+        <label for="other_explanation">If 'Other', explain here:</label><br>
+        <input type="text" id="other_explanation" name="other_explanation"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
