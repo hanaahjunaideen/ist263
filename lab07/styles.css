@@ -6,13 +6,13 @@ h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 body {
-    background-color: hsl(165, 38%, 47%);
+    background-color: #52c7aa;
 }
 p {
     color: #170749
 }
 nav {
-    background-color: hsl(165, 38%, 47%);
+    background-color: #4aa58f;
 }
 
 nav a {
