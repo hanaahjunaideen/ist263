@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, h2 {
+    color: #9f4848;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #52c7aa;
+}
+p {
+    color: #170749
+}
+nav {
+    background-color: #4aa58f;
+}
+
+nav a {
+    color: #dfd6d6
+}
+nav a:hover  {background-color:#e31a1a;
+}
+
+nav{
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #0d2e2a
+
+}
+
+
+
