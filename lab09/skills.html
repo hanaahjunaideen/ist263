@@ -10,23 +10,25 @@
                 h1 {font-size:3.5em}
                 h2 {font-size: 2em;}
                 .evenrow {background-color: dodgerblue;}
+                
                 .center {
                     display: flex;
                     justify-content: center;
                 }
-                .skills {
-                    display: flex;
+                .flex1 {display: flex;
+                        flex-basis: flex-end;
+                        justify-content: space-between;
                 }
-                .split {justify-content: space-between;}
-                .otherskills{
-                    background-color: #84ace1;
+                .split {justify-content:space-between;
+                        flex-basis: 75%;
+                        justify-content: flex-end;                      
                 }
-                .color {
-                    background-color: #87abdf;
-                    border-radius: 20px;
-                    padding: 10px;
+                .color {background-color: #1e90ff;
+                        color:#8a2be2;
+                        border-radius: 10%;
+                        padding: 30%px;
+                        text-align: right;
                 }
-                
             </style>
         </head>
         <body>
@@ -38,35 +40,35 @@
             <h1 class="dodgerblue">Hanaah Junaideen</h1>
             <h2 class="center">Technical Skills</h2>
             <p class="center">I am a Junior majoring in Policy Studies and minoring in Information Technology Management with an interest in technology. Below are my technical skills. </p>
-           
             <nav class="split">
-                <div class="skills">
-                    <div>
-                        <img src ="../images/Screenshot 2023-10-26 at 2.22.13 PM.png" alt="html" width="80" height="60"> <br>
+                <div class="flex1">
+                    <div><a>
+                        <img src ="../images/Screenshot 2023-10-26 at 2.22.13 PM.png" alt="html" width="80" height="60"></a><br>
                         <p>HTML</p>
                     </div>
-                    <div>
-                        <img src="../images/Screenshot 2023-10-26 at 2.19.17 PM.png" alt="spss" width="80" height="60"> <br>
+                    <div><a>
+                        <img src="../images/Screenshot 2023-10-26 at 2.19.17 PM.png" alt="spss" width="80" height="60"></a><br>
                         <p>SPSS</p>
                     </div>
-                    <div>
-                        <img src="../images/Screenshot 2023-10-26 at 2.20.10 PM.png" alt="python" width="80" height="60"> <br>
+                    <div><a>
+                        <img src="../images/Screenshot 2023-10-26 at 2.20.10 PM.png" alt="python" width="80" height="60"></a><br>
                         <p>Python</p>
                     </div>
-                    <div>
-                        <img src="../images/Screenshot 2023-10-26 at 2.20.48 PM.png" alt="excel" width="80" height="60"> <br>
+                    <div><a>
+                        <img src="../images/Screenshot 2023-10-26 at 2.20.48 PM.png" alt="excel" width="80" height="60"></a><br>
                         <p>Microsoft Excel</p>
                     </div>
-                    <div>
-                        <img src="../images/Screenshot 2023-10-26 at 2.21.24 PM.png" alt="windows 10" width="80" height="60"> <br>
+                    <div><a>
+                        <img src="../images/Screenshot 2023-10-26 at 2.21.24 PM.png" alt="windows 10" width="80" height="60"></a><br>
                         <p>Windows 10 </p>
                     </div>
-
                 <div class="color">
                     <div><h2>Other Skills</h2></div>
                     <div>Microsoft Word</div>
                     <div>R Studio</div>
                     <div>Communication</div>
                 </div>
-            </div>
+                </div>
             </nav>
+        </body>
+</html>
