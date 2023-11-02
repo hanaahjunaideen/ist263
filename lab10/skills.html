@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Skills</title>
+            <style>
+                td, th{border: 1px solid #1e90ff}
+                .center {
+                    display: flex;
+                    justify-content: center;
+                }
+                .flex1 {display: flex;
+                        flex-basis: 25%;
+                        justify-content: flex-end;
+                        justify-content: space-between;
+                }
+                .split {justify-content:space-between;
+                        flex-basis: 75%;
+                        justify-content: flex-end;                      
+                }
+                .color {background-color: #1e90ff;
+                        color:#8a2be2;
+                        border-radius: 5%;
+                        padding: 10%;
+                        text-align: right;
+                }
+                @media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+    }
+    nav span {
+        display: none;
+    }
+}
+            </style>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+            <nav>
+                <a href="index.html">Home</a><span>|</span>
+                <a href="skills.html">Skills</a><span>|</span>
+                <a href="contact.html">Contact</a>
+            </nav>    
+            <h1 class="dodgerblue">Hanaah Junaideen</h1>
+            <h1 class="center">Technical Skills</h1>
+            <p class="center">I am a Junior majoring in Policy Studies and minoring in Information Technology Management with an interest in technology. Below are my technical skills. </p>
+            <nav class="split">
+                <div class="flex1">
+                    <div><a><img src="../images/html.png" alt="html" width="30"></a><br><p>HTML</p></div>
+                    <div><a><img src="../images/spss.png" alt="html" width="30"></a><br><p>SPSS</p></div>
+                    <div><a><img src="../images/python.png" alt="html" width="30"></a><br><p>Python</p></div>
+                    <div><a><img src="../images/excel.png" alt="html" width="30"></a><br><p>Microsoft Excel</p></div>
+                    <div><a><img src="../images/windows.png" alt="html" width="30"></a><br><p>Windows 10</p></div>
+                </div>
+                <div class="color">
+                    <div><h2>Other Skills</h2></div>
+                    <div>Microsoft Word</div>
+                    <div>R Studio</div>
+                    <div>Communication</div>
+                </div>
+            </nav>
+        </body>
+</html>
