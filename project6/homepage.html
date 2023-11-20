@@ -1,37 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>HJ TRAVELS</title>
 </head>
 <style>
     .topleft {
-        font-family:'Italiana'; 
-        font-weight:100;
+        font-family:'Times New Roman';
+        font-weight:50;
         padding-left: 20px;
         padding-top: 2px;
         font-size: 34px;
     }
-    .nav1 {
-        display:flex;
-        justify-content:flex-end;
-        font-family: 'lato';
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    }   
+
+    .top-left-header h1,
+    .top-right-nav a {
+    color: #ffffff, 0, 0;
+    text-decoration: none;
+    }
+
+    .top-left-header h1 {
+    margin: 0;
+    font-size: 24px;
         }
-  
+
+    .top-right-nav a {
+    margin-left: 15px;
+    }
+
+    .top-right-nav a:hover {
+    text-decoration: underline;
+    }
+
+    .divider {
+        border: 0;
+        border-top: 1px solid #000000;
+        margin: 0;
+        clear: both;
+    }
+    .centered-heading {
+    text-align: center;
+    margin: 20px 0;
+    }
+
+    .centered-heading h2 {
+    font-family: 'Italaina';
+    margin: 0;
+    font-size: 70px;
+    }
+
+    .centered-image {
+    text-align: center;
+    }
+
+    .centered-image img {
+    max-width: 50%; 
+    height: auto; 
+    }
+
+    .text-boxes-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    }
+
+    .text-box {
+    flex: 1;
+    background-color: #ffffff;
+    font-family: 'lato';
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    }
+
+    .text-box p {
+    margin: 0;
+    }
+
+    .dual-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    }
+
+    .left-image, .right-image {
+    flex: 1;
+    }
+
+    .left-image img, .right-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+    .center-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .centered-heading-bottom {
+    text-align: center;
+    }
+
+    .centered-heading-bottom h3 {
+    font-family: 'Times New Roman';
+    margin: 0;
+    }
+
+    .centered-text-box {
+    text-align: center;
+    padding: 30px;
+    }
+
+    .centered-text-box p {
+    margin: 0;
+    }   
+
+    .aboutme{
+        font-family:'Times New Roman';
+        font-size: 77px;
+    }
+    .footer-container {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+
+    .subscribe-section,
+    .footer-nav,
+    .footer-logo {
+        flex: 1;
+        max-width: 600px;
+    }
+
+    h2, h1 {
+        font-family: 'Italiana';
+        font-weight: 10px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    nav a {
+        color: #000000;
+        font-family: 'Times New Roman';
+        margin: 0 10px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+        color: #666; /* Change the color on hover */
+    }
+
     
 </style>
 <body>
-    <header>
-        <h2 class="topleft">
-            HANAAH JUNAIDEEN TRAVELS
-        </h2>
-    </header>
-    <nav class="nav1">
-        <a href="homepage.html">Home</a><span>|</span>
-        <a href="destinations.html">Destinations</a><span>|</span>
-        <a href="tips&resources.html">Tips & Resources</a>
-    </nav>  
-      
+    <div class="header-container">
+        <header class="top-left-header">
+            <h1>HANAAH JUNAIDEEN TRAVELS</h1>
+        </header>
+        <nav class="top-right-nav">
+            <a href="homepage.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="tips&resources.html">Tips & Resources</a>
+        </nav>
+    </div>
+    <hr class="divider">
+    <div class="centered-heading">
+        <h2 class="font">WHERE WILL YOUR NEXT </h2><br><h2>ADVENTURE TAKE YOU?</h2>
+    </div>
+    <div class="centered-image">
+        <img src="../ProjectImages/homepage/home page first photo.jpg" alt="homepagefirstphoto">
+    </div>
+    <div class="text-boxes-container">
+        <div class="text-box">
+            <p>Are you ready to embark on a voyage of discovery, wanderlust, and unforgettable experiences? I am here to inspire your next adventure and guide you through a diverse and enchanting world of travel. Whether you’re a seasoned globetrotter or a first-time explorer, my travel guides and blog articles are crafted to ignite your passion for exploring the unknown. </p>
+        </div>
+        <div class="text-box">
+            <p>Welcome to a curated journey through my most cherished travel experiences, where luxury meets adventure in destinations around the world. Having explored 65 countries across continents, I’ve had the privilege of immersing myself in diverse cultures, savoring exquisite cuisines, and staying in some of the finest accommodations our planet has to offer. Enjoy the collection of my favorite countries, each accompanied by must-try activities, tantalizing dishes, and handpicked luxury stays that have left an indelible mark on my wanderlust-filled heart. Let this guide inspire your own unforgettable journeys. </p>
+        </div>
+        <div class="text-box">
+            <p>Travel is a passport to personal growth, cultural enrichment, and unforgettable experiences. It broadens horizons, deepens understanding, and fosters new friendships. Whether you seek adventure in nature, cultural immersion, or relaxation, travel offers a myriad of benefits. It recharges the soul, inspires creativity, and leaves you with cherished memories. Let me introduce you to the world in a new light and discover the transformative power of travel – from breaking routines to celebrating milestones, igniting creativity, and embracing diverse cultures. </p>
+        </div>
+    </div>
+    <div class="dual-images-container">
+        <div class="left-image">
+            <img src="../ProjectImages/homepage/home page second photo.JPG" alt="secondphoto">
+        </div>
+        <div class="center-content">
+            <div class="centered-heading-bottom">
+                <h3 class="aboutme">ABOUT ME</h3>
+            </div>
+            <div class="centered-text-box">
+                <p>My name is Hanaah Junaideen, a passionate explorer with a diverse travel journey that has taken me across borders, cultures, and budgets. Having lived in three different countries and embarked on adventures in 65 countries, I’ve experienced the world in its many shades. From indulgent luxury getaways to meticulously planned college adventures with friends, I’ve navigated both ends of the travel spectrum. As a connoisseur of luxury and a master of budget-friendly exploration, I’m here to share the best of both worlds. Join me on a voyage where I will uncover the world’s most lavish experiences while occasionally indulging in the thrill of smart and savvy travel, all within the realm of unforgettable exploration. </p>
+            </div>
+        </div>
+        <div class="right-image">
+            <img src="../ProjectImages/homepage/home page third photo.jpg" alt="thirdphoto">
+        </div>
+    </div>
+    <footer class="footer-container">
+        <div class="subscribe-section">
+            <h2>SUBSCRIBE</h2>
+            <p>Get updates and exclusive prints</p>
+            <form>
+                <input type="email" id="emailaddress" name="emailaddress" placeholder="Your email address">
+            </form>
+        </div>
+        <div class="footer-nav">
+            <nav>
+                <a href="homepage.html">HOME</a><span>|</span>
+                <a href="destinations.html">DESTINATIONS</a><span>|</span>
+                <a href="tips&resources.html">TIPS & RESOURCES</a>
+            </nav>
+        </div>
+        <div class="footer-logo">
+            <h1>HANAAH JUNAIDEEN</h1> 
+            &copy;2023
+        </div>
+    </footer>
 </body>
 </html>
